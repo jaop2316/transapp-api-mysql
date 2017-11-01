@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codRuta: MyString
+  nomRuta: MyString
+  numBuses: 1
+  observRuta: MyString
+
+two:
+  codRuta: MyString
+  nomRuta: MyString
+  numBuses: 1
+  observRuta: MyString

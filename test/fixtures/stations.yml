@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codParada: MyString
+  nomParada: MyString
+  latParada: 1.5
+  lonParada: 1.5
+  route: one
+
+two:
+  codParada: MyString
+  nomParada: MyString
+  latParada: 1.5
+  lonParada: 1.5
+  route: two

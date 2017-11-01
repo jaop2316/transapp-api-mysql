@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Codruta:</strong>
+  <%= @route.codRuta %>
+</p>
+
+<p>
+  <strong>Nomruta:</strong>
+  <%= @route.nomRuta %>
+</p>
+
+<p>
+  <strong>Numbuses:</strong>
+  <%= @route.numBuses %>
+</p>
+
+<p>
+  <strong>Observruta:</strong>
+  <%= @route.observRuta %>
+</p>
+
+<%= link_to 'Edit', edit_route_path(@route) %> |
+<%= link_to 'Back', routes_path %>
