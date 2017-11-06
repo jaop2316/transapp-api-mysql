@@ -21,7 +21,6 @@
         <td><%= station.nomParada %></td>
         <td><%= station.latParada %></td>
         <td><%= station.lonParada %></td>
-        <td><%= station.routes %></td>
         <td><%= collection_select(:route, :id,  @stations_routes_list, :id, :nomRuta, {}, {:multiple => true}) %></td>
         <td><%= link_to 'Show', station %></td>
         <td><%= link_to 'Edit', edit_station_path(station) %></td>
